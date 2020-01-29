@@ -1,0 +1,90 @@
+import java.util.Scanner;
+
+public class BasicsReview {
+
+	public static void main(String[] args) {
+
+		String title = "Harry Potter";
+		int length = 1084;
+		
+		System.out.print(title);
+		System.out.print(length);
+		
+		System.out.print("\n");
+		
+		System.out.println(title);
+		System.out.println(length);
+		
+		String name = "Student";
+		int number = 5;
+		char grade = 'A';
+		
+		System.out.println("Student");
+		System.out.println(name);
+		
+		System.out.println(5);
+		System.out.println(number);
+		
+		System.out.println('A');
+		System.out.println(grade);
+		
+		System.out.println("This " + name + " has answered " + number + " questions correctly and earned a grade of " + grade);
+		
+		int dollarSign$ = 500;
+//		int ampersand& = 17;
+		
+		char letter;
+		
+		letter = 65;
+		System.out.println(letter);
+		letter = 67;
+		System.out.println(letter);
+		letter = 97;
+		System.out.println(letter);
+		
+		System.out.println(2 + 4);
+		System.out.println(7 - 3);
+		System.out.println(5 * 6);
+		System.out.println(8 / 4);
+		System.out.println(9 % 4);
+		
+		System.out.println(12 / 5);
+		System.out.println(12.0 / 5);
+		
+		int result = 0;
+		
+		result = 10 % -7 + 4 / 2 - 3;
+		
+		System.out.println(result);
+		
+		result = 0;
+		
+		result = ((11 % 3) - -7) / 3 + 7;
+		
+		System.out.println(result);
+		
+		int value = 5;
+		value += 3;
+		System.out.println(value);
+		
+		value -= 2;
+		System.out.println(value);
+		
+		value *= 4;
+		System.out.println(value);
+
+		value /= 2;
+		System.out.println(value);
+
+		value %= 5;
+		System.out.println(value);
+
+		final int MONTHLY_BONUS = 150;
+		
+		String example1 = "Greetings";
+		String example2 = new String("Greetings");
+		
+		System.out.println(name.length());
+	}
+
+}
