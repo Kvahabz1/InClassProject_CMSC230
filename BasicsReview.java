@@ -6,7 +6,7 @@ public class BasicsReview {
 
 		String title = "Harry Potter";
 		int length = 1084;
-		
+		int x = 90;
 		System.out.print(title);
 		System.out.print(length);
 		
